@@ -1,0 +1,50 @@
+2024-07-03 09:41:03,083 - Health OK
+2024-07-03 09:41:03,592 - SUCCESS: http://www.google.com - Response time: 0.45s
+2024-07-03 09:41:05,086 - Health OK
+2024-07-03 09:41:06,216 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e9494fa30>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-07-03 09:41:07,088 - Health OK
+2024-07-03 09:41:09,090 - Health OK
+2024-07-03 09:41:09,700 - SUCCESS: http://www.google.com - Response time: 0.48s
+2024-07-03 09:41:11,093 - Health OK
+2024-07-03 09:41:12,508 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e9494fdc0>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-07-03 09:41:13,095 - Health OK
+2024-07-03 09:41:15,097 - Health OK
+2024-07-03 09:41:16,009 - SUCCESS: http://www.google.com - Response time: 0.50s
+2024-07-03 09:41:17,099 - Health OK
+2024-07-03 09:41:18,846 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e951ebeb0>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-07-03 09:41:19,099 - Health OK
+2024-07-03 09:41:21,101 - Health OK
+2024-07-03 09:41:22,362 - SUCCESS: http://www.google.com - Response time: 0.51s
+2024-07-03 09:41:23,104 - Health OK
+2024-07-03 09:41:25,101 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e951eb7f0>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-07-03 09:41:25,105 - Health OK
+2024-07-03 09:41:27,108 - Health OK
+2024-07-03 09:41:28,583 - SUCCESS: http://www.google.com - Response time: 0.48s
+2024-07-03 09:41:29,108 - Health OK
+2024-07-03 09:41:31,111 - Health OK
+2024-07-03 09:41:31,383 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e94945dc0>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-07-03 09:41:33,113 - Health OK
+2024-07-03 09:41:34,842 - SUCCESS: http://www.google.com - Response time: 0.46s
+2024-07-03 09:41:35,116 - Health OK
+2024-07-03 09:41:37,117 - Health OK
+2024-07-03 09:41:37,590 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e94958cd0>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-07-03 09:41:39,120 - Health OK
+2024-07-03 09:41:41,112 - SUCCESS: http://www.google.com - Response time: 0.52s
+2024-07-03 09:41:41,121 - Health OK
+2024-07-03 09:41:43,124 - Health OK
+2024-07-03 09:41:43,856 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e94958df0>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-07-03 09:41:45,126 - Health OK
+2024-07-03 09:41:47,128 - Health OK
+2024-07-03 09:41:47,343 - SUCCESS: http://www.google.com - Response time: 0.48s
+2024-07-03 09:41:49,131 - Health OK
+2024-07-03 09:41:50,055 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e94945640>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-07-03 09:41:51,133 - Health OK
+2024-07-03 09:41:53,135 - Health OK
+2024-07-03 09:41:53,565 - SUCCESS: http://www.google.com - Response time: 0.51s
+2024-07-03 09:41:55,138 - Health OK
+2024-07-03 09:41:56,326 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e951ebca0>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-07-03 09:41:57,140 - Health OK
+2024-07-03 09:41:59,143 - Health OK
+2024-07-03 09:41:59,840 - SUCCESS: http://www.google.com - Response time: 0.51s
+2024-07-03 09:42:01,145 - Health OK
+2024-07-03 09:42:02,663 - CONNECTION ERROR: http://www.invalid.com/login - HTTPConnectionPool(host='www.invalid.com', port=80): Max retries exceeded with url: /login (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f2e951eb9d0>: Failed to resolve 'www.invalid.com' ([Errno -3] Temporary failure in name resolution)"))

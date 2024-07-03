@@ -1,0 +1,18 @@
+{
+	"name": "webMonitor heatlh check",
+	"type": "process alert",
+	"query": "processes('').over('command:webMonitor.py,host:fluent-docker').rollup('count').last('5m') == 0",
+	"message": "{{#is_alert}}\nHi Rahees,\n\nYour  webMonitor script is down. Please take the required actions to fix it.\nwebMonitor Script was running on  {{host.host}}\nThanks !!\n@khanrahees333@gmail.com \n{{/is_alert}}",
+	"tags": [
+		"service:python_script",
+		"source:datadog"
+	],
+	"options": {
+		"thresholds": {
+			"critical": 0
+		},
+		"renotify_interval": 0,
+		"include_tags": false
+	},
+	"priority": 1
+}

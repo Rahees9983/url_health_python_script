@@ -1,0 +1,7 @@
+{
+    "sites": [
+      { "url": "http://www.google.com", "content": "Google Search" },
+      { "url": "http://www.invalid.com/login", "content": "Please login:" }
+    ]
+  }
+  
