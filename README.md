@@ -21,11 +21,6 @@ options:
 ## Run
 ### You can run the script with below command:
 ```
-Set API_KEY and APP_KEY as environemt variables
-
-export API_KEY="7328e38bea7d56ee119da750ef306938"
-export APP_KEY="1fdd1c1a-f8ff-4189-9e39-c72d3f162159"
-
 python webMonitor.py -c config.json -i 3
 ```
 ### DataDog
@@ -66,7 +61,8 @@ Steps followed for Integration Azure Virtual machine with DataDog are below.
 
 2. Logs are also available at the DataDog console
 
-<img width="1429" alt="image" src="https://github.com/Rahees9983/url_health_python_script/assets/38326225/5b995436-23ca-41ef-bd53-c32580e92d01">
+  <img width="1433" alt="image" src="https://github.com/Rahees9983/url_health_python_script/assets/38326225/30d847b2-fa64-4d46-a2c3-035b7483c695">
+
 
 
 3. ```
