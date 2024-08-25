@@ -1,5 +1,7 @@
 # Check URL health using a Python script and Monitor Python script using DataDog
 ## Create virtual environment and activate it 
+* apt update
+* apt install python3.8-venv
 * python3 -m venv url_health_check_venv
 * source url_health_check_venv/bin/activate
 
