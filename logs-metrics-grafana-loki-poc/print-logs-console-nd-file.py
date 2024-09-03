@@ -10,11 +10,11 @@ def load_config(config_file):
     with open(config_file, 'r') as f:
         return json.load(f)
 
-def sendHealthStatus():
-    """Send periodic health status logs."""
-    while True:
-        logging.info("Health status: OK")
-        time.sleep(2)
+#def sendHealthStatus():
+#    """Send periodic health status logs."""
+#    while True:
+#        logging.info("Health status: OK")
+#        time.sleep(2)
 
 def check_website(url, content, env):
     """Check the website and log the result with environment information."""
@@ -60,8 +60,8 @@ def main(config_file, interval):
     setup_logging()
 
     # Start health status thread
-    healthThread = threading.Thread(target=sendHealthStatus)
-    healthThread.start()
+    #healthThread = threading.Thread(target=sendHealthStatus)
+    #healthThread.start()
     
     # Main monitoring loop
     while True:
