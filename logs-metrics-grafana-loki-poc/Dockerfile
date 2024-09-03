@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Set the entrypoint to run the Python script
-ENTRYPOINT ["python", "web-app.py"]
+ENTRYPOINT ["python", "print-logs-console-nd-file.py"]
 
 # Default command to run the script with arguments
 CMD ["-c", "/app/env-config.json", "-i", "300"]
