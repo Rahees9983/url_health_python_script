@@ -1,0 +1,63 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-monitoring-deployment
+  labels:
+    app: web-monitoring
+spec:
+  replicas: 1  # Number of pod replicas
+  selector:
+    matchLabels:
+      app: web-monitoring
+  template:
+    metadata:
+      labels:
+        app: web-monitoring
+    spec:
+      containers:
+      - name: web-monitoring
+        image: your-registry/web-monitoring-tool:latest  # Replace with your image path
+        ports:
+        - containerPort: 8080  # Adjust if your application uses different ports
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/config.json
+          subPath: config.json
+        args:
+        - "-c"
+        - "/app/config.json"
+        - "-i"
+        - "60"
+      volumes:
+      - name: config-volume
+        configMap:
+          name: web-monitoring-config
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-monitoring-config
+data:
+  config.json: |
+    {
+      "sites": [
+        { "url": "http://www.google.com", "content": "Google Search", "env": "dev" },
+        { "url": "http://www.invalid.com/login", "content": "Please login:", "env": "test" },
+        { "url": "http://www.stackoverflow.com", "content": "Stack Overflow", "env": "staging" },
+        { "url": "http://www.github.com", "content": "GitHub", "env": "prod" }
+      ]
+    }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-monitoring-service
+spec:
+  selector:
+    app: web-monitoring
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080
+
